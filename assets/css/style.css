@@ -10,7 +10,7 @@ body {
 }
 
 a.navbar-brand.custom-logo {
-    padding: 0; 
+    padding: 0;
 }
 
 .container {
@@ -283,25 +283,21 @@ a.navbar-brand.custom-logo {
 
 .booth-card {
     width: 365px;
-    padding: 46px 112px 10px 0px;
+    padding: 46px 112px 15px 1px;
     text-align: left;
-
-    background: linear-gradient(135deg,
-            #00C5D4 0%,
-            #F4F4F4 100%);
-
-    margin-right: -60px;
+    background: linear-gradient(135deg, #00C5D4 0%, #F4F4F4 100%);
+    margin-right: -50px;
     z-index: 2;
 }
 
 .booth-label {
     display: inline-block;
-    background: #E5DB00;
+    background: #DFD306;
     color: #170F4F;
-    padding: 11px 36px 13px 36px;
+    padding: 11px 36px 12px 36px;
     font-size: 40px;
     letter-spacing: -1.32px;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .booth-info {
